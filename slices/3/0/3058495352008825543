@@ -3,44 +3,56 @@
     "uses": [
         {
             "reference": {
-                "builtinModule": "GHC.Base"
+                "tag": "Builtin",
+                "contents": "GHC.Base"
             },
             "usedName": {
                 "typeName": {
-                    "identifier": "String"
-                }
+                    "tag": "Identifier",
+                    "contents": "String"
+                },
+                "tag": "TypeName"
             },
             "qualification": null
         },
         {
             "reference": {
-                "builtinModule": "GHC.Types"
+                "tag": "Builtin",
+                "contents": "GHC.Types"
             },
             "usedName": {
                 "typeName": {
-                    "identifier": "IO"
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "System.IO"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "putStrLn"
                 }
             },
             "qualification": null
         },
         {
             "reference": {
-                "builtinModule": "System.IO"
+                "tag": "Builtin",
+                "contents": "GHC.Base"
             },
             "usedName": {
+                "tag": "ValueName",
                 "valueName": {
-                    "identifier": "putStrLn"
-                }
-            },
-            "qualification": null
-        },
-        {
-            "reference": {
-                "builtinModule": "GHC.Base"
-            },
-            "usedName": {
-                "valueName": {
-                    "operator": "++"
+                    "tag": "Operator",
+                    "contents": "++"
                 }
             },
             "qualification": null
