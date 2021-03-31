@@ -1,0 +1,46 @@
+{
+    "sliceID": "6900975506118261968",
+    "uses": [
+        {
+            "reference": {
+                "tag": "OtherSlice",
+                "contents": "4671887181985828978"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "putHello"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Types"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        }
+    ],
+    "fragment": [
+        "greet :: IO ()",
+        "greet = putHello \"fragnix\""
+    ],
+    "instances": [],
+    "language": {
+        "extensions": [
+            "MultiParamTypeClasses",
+            "NondecreasingIndentation",
+            "ExplicitForAll",
+            "PatternGuards"
+        ]
+    }
+}
