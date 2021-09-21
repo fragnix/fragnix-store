@@ -1,0 +1,60 @@
+{
+    "sliceID": "5917627629716653636",
+    "uses": [
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Base"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "String"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Base"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "map"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Unicode"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "toUpper"
+                }
+            },
+            "qualification": null
+        }
+    ],
+    "fragment": [
+        "stringToUpper :: String -> String",
+        "stringToUpper = map toUpper"
+    ],
+    "instances": [],
+    "language": {
+        "extensions": [
+            "MultiParamTypeClasses",
+            "NondecreasingIndentation",
+            "ExplicitForAll",
+            "PatternGuards"
+        ]
+    }
+}
