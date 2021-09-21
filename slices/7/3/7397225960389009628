@@ -1,0 +1,88 @@
+{
+    "sliceID": "7397225960389009628",
+    "uses": [
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Base"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "String"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Types"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "System.IO"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "putStrLn"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "OtherSlice",
+                "contents": "7028552155984689758"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "leftpad"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Base"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Operator",
+                    "contents": "++"
+                }
+            },
+            "qualification": null
+        }
+    ],
+    "fragment": [
+        "putHello :: String -> IO ()",
+        "putHello str = putStrLn (leftpad 3 ' ' \"Hello \" ++ str)"
+    ],
+    "instances": [],
+    "language": {
+        "extensions": [
+            "MultiParamTypeClasses",
+            "NondecreasingIndentation",
+            "ExplicitForAll",
+            "PatternGuards"
+        ]
+    }
+}
